@@ -55,7 +55,7 @@ export default function Home() {
       
       >
         <Room style={{
-          fontSize: 3 * viewport.zoom,
+          fontSize: 2 * viewport.zoom,
           color: 'slateblue '}}/>
       </Marker>
       {/* <Popup
@@ -87,7 +87,7 @@ export default function Home() {
         style={geolocateControlStyle}
         positionOptions={{enableHighAccuracy: true}}
         trackUserLocation={true}
-        auto
+        auto={false}
       />
       </ReactMapGL>
     </div>
